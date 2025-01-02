@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "watch",
+            "group": "build",
+            "problemMatcher": {
+                "owner": "typescript",
+                "pattern": {
+                    "regexp": "^.*$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "Watching...",
+                    "endsPattern": "Watching..."
+                }
+            },
+            "isBackground": true
+        }
+    ]
+}
